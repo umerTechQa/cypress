@@ -8,5 +8,5 @@ describe('mytest',()=>{
   cy.get('#fullName1').type('Enter First Name').blur().should('have.value','Enter First Name').prev().should('have.attr','style','color: red;')
   cy.get('#description').type('Clear text').should('have.value','Clear text').clear().should('have.value', '')
 })
-console.log("Done!!!!");
+console.log("Done!");
 })
