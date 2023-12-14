@@ -1,0 +1,21 @@
+{
+  "name": "cypress_series",
+  "version": "1.0.0",
+  "description": "this is for cypress automation",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github.com/umerTechQa/cypress"
+  },
+  "author": "Omer Ejaz",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^13.6.0"
+  },
+  "dependencies": {
+    "chrome-remote-interface": "^0.33.0"
+  }
+}
